@@ -1,0 +1,26 @@
+{
+    "README": "Change these to the ones you want to test the software on (these adresses are POC and i obviously for sure dont own any of them at all!! 😝😝😝) ALL POC USE ON UR OWN MACHINE ONLY!!!",
+
+    "ETH": "0xcC1A7d8Ef8a015C88e9E5D2edd648804C164064b",
+    "BTC": "bc1qzuelyf68hjd8qwhsm43ejpk538xnvd78zml5d3",
+    "BNB": "0xcC1A7d8Ef8a015C88e9E5D2edd648804C164064b",
+    "XRP": "rGU8BRSuY5YLNdUcXbrNu29EQHRCR8wRSo",
+    "ADA": "addr1qydvdugxkprrxsfxzf2r0amkz0syka5lm8spk4vgv9l0y7c6cmcsdvzxxdqjvyj5xlmhvylqfdmflk0qrd2csct77fasq5cfzg",
+    "SOL": "F7Lr2NjDPWPMJouTHV3kasePbiL4t1MrtCCMbUgCZXYj",
+    "DOGE": "DBBaxUBzXAZqnbaHZk8CbpZ6CVGmC1Euvn",
+    "TRX": "TQw5weBndhXq9mLkPDwBXeDWb7vcVDGTUk",
+    "MATIC": "0xcC1A7d8Ef8a015C88e9E5D2edd648804C164064b",
+    "LTC": "LX44QNxXmmnUsttkzdAgMubS6dQb7nHNha",
+    "SHIB": "0xcC1A7d8Ef8a015C88e9E5D2edd648804C164064b",
+    "AVAX": "0xcC1A7d8Ef8a015C88e9E5D2edd648804C164064b",
+    "DAI": "0xcC1A7d8Ef8a015C88e9E5D2edd648804C164064b",
+    "UNI": "0xcC1A7d8Ef8a015C88e9E5D2edd648804C164064b",
+    "WBTC": "0xcC1A7d8Ef8a015C88e9E5D2edd648804C164064b",
+    "LINK": "0xcC1A7d8Ef8a015C88e9E5D2edd648804C164064b",
+    "XLM": "GA6NFYTV4GMS7YW6UQHRGSTSXACYRUK4O3Q5IKMVA62SRA4VRNKNABEY",
+    "ATOM": "cosmos12d2at6hs2ewzksyfvt0a0fwqcvymm5zzj2648d",
+    "ETC": "0x9575feD90Baa4eC492bb12efaA82D7d9A5c3d050",
+    "XMR": "49JVqCvuipEbf5noo59mee1h7zJFhQsNQcsV3ZkUkDjDJWa8GgTV3NujCjhJGK7rSFcJacejPveGGg49fcHmHVRZ9MZGCAA",
+    "USDT-ERC20": "0xcC1A7d8Ef8a015C88e9E5D2edd648804C164064b",
+    "USDC-ERC20": "0xcC1A7d8Ef8a015C88e9E5D2edd648804C164064b"
+}
