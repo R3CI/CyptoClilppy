@@ -61,7 +61,11 @@ python build.py
 
 ### ⚖️ Ethical & Legal Notice 
 </div>
+
 🔸 This repository is a **non-malicious PoC** created solely for **research, education, and awareness**.  
+
 🔸 It does **not encourage or support malicious activity**.  
+
 🔸 Using software like this to intercept or tamper with cryptocurrency transactions without consent is **illegal** and unethical.  
+
 🔸 Always use responsibly in **controlled environments** such as penetration testing labs or awareness training.   
