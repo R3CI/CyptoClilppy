@@ -1,71 +1,71 @@
-# CryptoClippy
+<div align="center">
 
-CryptoClippy is a proof-of-concept (PoC) cryptocurrency clipper.
-It is designed as a security research and educational tool to demonstrate how clipboard-based address swapping attacks could be carried out, and to help raise awareness of these risks.
+# 🔗 CryptoClippy
 
-⚠️ Disclaimer
-This project is provided strictly for educational, awareness, and testing purposes only.
-It does not contain or encourage malicious functionality beyond demonstration.
-The author does not condone misuse of this code, and takes no responsibility for how others may use it.
----
+**CryptoClippy** is a **proof-of-concept (PoC)** cryptocurrency clipper.  
+It is designed as a **security research and educational tool** to demonstrate how clipboard-based address swapping attacks could be carried out, and to help raise awareness of these risks.  
 
-## Features
-
-* Monitors the clipboard for copied cryptocurrency wallet addresses
-* Replaces detected addresses with predefined attacker-controlled addresses (PoC behavior)
-* Adds itself to **startup locations** to ensure persistence
-* Demonstrates multiple persistence methods (registry keys, startup folder, scheduled tasks, etc.)
-* Lightweight and runs silently in the background
+</div>
 
 ---
 
-## Supported Coins
+## ✨ Features
 
-The PoC is configured to recognize and target wallet addresses for:
-
-* **Bitcoin (BTC)**
-* **Ethereum (ETH)**
-* **Litecoin (LTC)**
-* **Monero (XMR)**
-* **Ripple (XRP)**
-* **Dogecoin (DOGE)**
-* Other common cryptocurrency formats can be added as needed
+- 📋 Demonstrates monitoring the clipboard for copied cryptocurrency wallet addresses  
+- 🔄 Simulates replacement of detected addresses with predefined PoC values  
+- ⚙️ Explains common persistence methods (startup folder, registry keys, scheduled tasks, etc.)  
+- 🪶 Lightweight and runs silently in the background  
 
 ---
 
-## Purpose
+## 💰 Supported Coins
 
-* Highlight the **security risks** of blindly copy-pasting wallet addresses
-* Demonstrate how malware achieves **persistence** through multiple startup mechanisms
-* Provide a base for **research and security testing**
-* Encourage users and organizations to adopt stronger defenses against clipboard-based attacks
+This PoC can be configured to recognize wallet address formats for:
 
----
-
-## Usage
-
-1. Clone the repository
-
-   ```bash
-   git clone https://github.com/r3ci/CryptoClippy.git
-   cd CryptoClippy
-   ```
-2. Install dependencies
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the script (for demonstration purposes)
-
-   ```bash
-   python build.py
-   ```
+- **Bitcoin (BTC)**  
+- **Ethereum (ETH)**  
+- **Litecoin (LTC)**  
+- **Monero (XMR)**  
+- **Ripple (XRP)**  
+- **Dogecoin (DOGE)**  
+- Other common cryptocurrency formats can be added for demonstration  
 
 ---
 
-## Ethical & Legal Notice
+## 🎯 Purpose
 
-* This project is a **non-malicious PoC**.
-* It is intended for **educational demonstrations, penetration testing labs, and awareness training**.
-* Using software like this for unauthorized interception or tampering with cryptocurrency transactions is **illegal** and unethical.
-* Always use responsibly in **controlled environments**.
+- 🔐 Highlight the **security risks** of blindly copy-pasting wallet addresses  
+- 🛠️ Demonstrate how malware could achieve **persistence** through multiple startup mechanisms  
+- 🧪 Provide a base for **research and testing in controlled environments**  
+- 🛡️ Encourage users and organizations to adopt stronger defenses  
+
+---
+
+## 🚀 Usage
+
+```bash
+# Clone the repository
+git clone https://github.com/r3ci/CryptoClippy.git
+cd CryptoClippy
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run (PoC only)
+python build.py
+````
+
+---
+
+<div align="center">
+
+### ⚖️ Ethical & Legal Notice
+
+<sub>  
+🔸 This repository is a **non-malicious PoC** created solely for **research, education, and awareness**.  
+🔸 It does **not encourage or support malicious activity**.  
+🔸 Using software like this to intercept or tamper with cryptocurrency transactions without consent is **illegal** and unethical.  
+🔸 Always use responsibly in **controlled environments** such as penetration testing labs or awareness training.  
+</sub>  
+
+</div>
